@@ -86,6 +86,8 @@
 img.avatar {
   border: 2px solid white;
   border-radius: 50%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 a.small {
@@ -120,6 +122,34 @@ a.small {
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%);
+}
+
+/* Arqfi */
+.button.button-arqfi {
+  color: #ffffff;
+  background-color: #a3cc52;
+}
+.button.button-arqfi:hover,
+.button.button-arqfi:focus {
+  filter: brightness(90%);
+}
+.button.button-arqfi:hover:before {
+  content: 'Este es mi espacio creativo. Por el momento, sólo hay un portafolio de visualización arquitectónica.';
+  white-space: initial;
+}
+
+/* Commit */
+.button.button-commit {
+  color: #000;
+  background-color: #fff;
+}
+.button.button-commit:hover,
+.button.button-commit:focus {
+  filter: brightness(90%);
+}
+.button.button-commit:hover:before {
+  content: 'Envíame un mensaje y nos ponemos en contacto.';
+  white-space: initial;
 }
 
 /* Amazon */
@@ -250,7 +280,7 @@ a.small {
   filter: brightness(90%);
 }
 .button.button-github:hover:before {
-  content: 'Aquí se puede modificar el texto para mostrar una breve explicación';
+  content: 'Aquí puedes ver mis primeros pasos en desarrollo. Aprendiendo un poco más cada día.';
   white-space: initial;
 }
 
@@ -322,6 +352,10 @@ a.small {
 .button.button-linked:hover,
 .button.button-linked:focus {
   filter: brightness(90%);
+}
+.button.button-linked:hover:before {
+  content: 'Si estás pensando que trabajemos juntos, es posible que este sea el lugar que estás buscando.';
+  white-space: initial;
 }
 
 /* Mastodon */
