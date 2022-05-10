@@ -124,24 +124,27 @@ a.small {
   filter: brightness(90%);
 }
 
-/* Arqfi */
-.button.button-arqfi {
+/* Behance */
+.behance {
+  color: #FFFFFF;
+}
+.button.button-behance {
   color: #ffffff;
   background-color: #a3cc52;
 }
-.button.button-arqfi:hover,
-.button.button-arqfi:focus {
+.button.button-behance:hover,
+.button.button-behance:focus {
   filter: brightness(90%);
 }
-.button.button-arqfi:hover:before {
-  content: 'Este es mi espacio creativo. Por el momento, sólo hay un portafolio de visualización arquitectónica.';
+.button.button-behance:hover:before {
+  content: 'Portafolio de visualización arquitectónica, con proyectos para terceros e imágenes propias, realizadas con distintas herramientas gráficas.';
   white-space: initial;
 }
 
 /* Commit */
 .button.button-commit {
-  color: #000;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #7d7d7d;
 }
 .button.button-commit:hover,
 .button.button-commit:focus {
